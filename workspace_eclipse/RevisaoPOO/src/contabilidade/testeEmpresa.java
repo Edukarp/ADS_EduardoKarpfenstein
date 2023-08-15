@@ -2,6 +2,12 @@ package contabilidade;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * Classe para realizacao de testes
+ * @author eduardo karpfenstein
+ * @since 14 de agosto de 2023
+ */
+
 public class testeEmpresa {
 	
 	@Test

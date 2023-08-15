@@ -1,5 +1,11 @@
 package contabilidade;
 
+/**
+ * Classe Empresa Simples 'impelmentando' a interface de tributacao com suas funcoes
+ * @author eduardo karpfenstein
+ * @since 14 de agosto de 2023
+ */
+
 public class EmpresaSimples implements Tributavel {
 	
 	public double faturamentoMensal;
