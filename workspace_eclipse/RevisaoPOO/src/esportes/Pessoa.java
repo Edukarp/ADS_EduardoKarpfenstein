@@ -1,4 +1,4 @@
-package Esportes;
+package esportes;
 
 public class Pessoa extends Object{ //Object sempre inplicito
 	

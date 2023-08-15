@@ -1,4 +1,10 @@
-package Cidadania;
+package cidadania;
+
+/**
+ * Representa a classe Pessoa com seus atributos
+ * @author eduardo karpfenstein
+ * @since 7 de agosto de 2023
+ */
 
 public class Pessoa {
 	

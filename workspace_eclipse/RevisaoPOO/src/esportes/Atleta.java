@@ -1,4 +1,4 @@
-package Esportes;
+package esportes;
 
 import org.junit.*;
 

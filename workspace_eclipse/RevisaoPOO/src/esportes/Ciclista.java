@@ -1,4 +1,4 @@
-package Esportes;
+package esportes;
 
 public class Ciclista extends Atleta {
 

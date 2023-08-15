@@ -1,6 +1,12 @@
-package Cidadania;
+package cidadania;
 
 import org.junit.*;
+
+/**
+ * Representa a classe Cidadao a qual eh 'filha' de Pessoa
+ * @author eduardo karpfenstein
+ * @since 7 de agosto de 2023
+ */
 
 public class Cidadao extends Pessoa {
 	

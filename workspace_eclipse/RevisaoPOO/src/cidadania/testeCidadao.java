@@ -1,8 +1,14 @@
-package Cidadania;
+package cidadania;
 
-import java.util.Scanner;
+import java.util.Scanner; // crtl + shift + o organiza imports
 
 import org.junit.Test;
+
+/**
+ * Representa o teste unitario das classses criadas
+ * @author eduardo karpfenstein
+ * @since 7 de agosto de 2023
+ */
 
 
 public class testeCidadao {

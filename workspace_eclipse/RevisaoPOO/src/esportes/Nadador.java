@@ -1,4 +1,4 @@
-package Esportes;
+package esportes;
 
 public class Nadador extends Atleta {
 
