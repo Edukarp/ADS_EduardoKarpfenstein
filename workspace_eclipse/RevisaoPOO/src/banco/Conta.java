@@ -19,6 +19,12 @@ public abstract class Conta {
 		this.saldo -= saldo;
 	}
 	
+	//crtl + 3 + "tostr"
+	@Override
+	public String toString() {
+		return "Conta [saldo = "+ saldo + "]";
+	}
+	
 	
 
 }

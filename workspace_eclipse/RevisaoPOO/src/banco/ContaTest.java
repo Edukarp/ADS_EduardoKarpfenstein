@@ -35,5 +35,27 @@ public class ContaTest {
 				System.out.println("Saldo Rentabilizado Corretamente");
 			}
 	}
+		@Test
+		void testPolimorfismo() {
+			//Flag que define qual sera instancia da Conta
+			boolean flagContaCorrenteDefault = true;
+			
+			Conta conta = null;
+			if(flagContaCorrenteDefault) {
+				conta = new ContaCorrente();
+			}
+			else {
+				conta = new ContaPoupanca();
+			}
+			conta.depositar(100.00f); //Sempre invocado de 'Conta'
+			conta.rentabilizar(); //Pode ser invocado tanto de ContaCorrente quanto de
+									//de ContaPoupanca <- Polimorfismo
+			System.out.println(conta.getClass().getName()); //Mostrando a Instancia
+			System.out.println(conta.saldo);
+			
+			String str = conta.toString();
+			System.out.println(str);
+			
+			}
+		}
 
-}
