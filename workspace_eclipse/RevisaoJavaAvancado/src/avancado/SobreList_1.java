@@ -6,7 +6,7 @@ public class SobreList_1 {
 	
 	public static void main(String[] args) {
 		
-		List<String> listaAlimentos = new ArrayList<String>();
+		List<String> listaAlimentos = new ArrayList<>();
 		listaAlimentos.add("Damasco");
 		listaAlimentos.add("Batata");
 		listaAlimentos.add("Arroz");
