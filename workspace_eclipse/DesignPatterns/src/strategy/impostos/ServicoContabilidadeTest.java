@@ -13,6 +13,7 @@ public class ServicoContabilidadeTest {
 		 
 		 ServicoContabilidade servicoContabilidade = new ServicoContabilidade();
 		 
+		 //Vai passar por todos os impostos estabelecidos e fazer a soma
 		 double totalImpostos = servicoContabilidade.totalizarImpostos(nf);
 		 double totalImpostosEsperado = 170.00;
 		 
