@@ -1,16 +1,5 @@
 package br.inatel.labs.padraosoa.controller;
 
-public class MyMessage {
+public record MyMessage(String info){ //Record usado para classes imutaveis
 	
-	private String info;
-
-	public String getInfo() {
-		return info;
-	}
-
-	public void setInfo(String info) {
-		this.info = info;
-	}
-	
-
 }

@@ -36,11 +36,12 @@ public class BookController {
 	public Book getBookById(@PathVariable("id") Long bookId) {
 		Optional<Book> opBook = this.service.findById(bookId);
 		
+		//Verificando se algo no Optional e se tiver pega o valor
 		if(opBook.isPresent()) {
 			return opBook.get();
 		}
 		
-		//Se nada for encontrado
+		//Se nada for encontrado no Optional
 		throw new ResponseStatusException(HttpStatus.NOT_FOUND);
 	}
 	

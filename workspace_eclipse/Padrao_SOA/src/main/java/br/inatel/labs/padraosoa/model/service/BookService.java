@@ -19,6 +19,8 @@ public class BookService {
 		return this.bookList;
 	}
 	
+	//Reflection API (entra nas classes e consegue quebrar o encapsulamento)
+		
 	@PostConstruct
 	private void setup() {
 		Book b1 = new Book(1L, "Livro 1", "Contos");
